@@ -30,7 +30,7 @@ body {
     justify-content: center;
     background: transparent;
     height: 15vh;
-
+    z-index: 999;
 }
 
 .nav-top {
@@ -87,6 +87,9 @@ body {
     border-radius: 40px;
     margin-top: 5vh;
     transition: 0.8s ease all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -96,3 +99,26 @@ body {
                 0 0 50px #dd00ff,
                 0 0 100px #dd00ff;
 }   
+
+.inner-box {
+    width: 95%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    animation: gradient 1s ease all;
+}
+
+.inner-box h2 {
+    width: 40%;
+    font-size: 9vh;
+    color: rgba(255, 255, 255);
+    cursor: default;
+}
+
+.right-img {
+    width: 50%;
+    height: 62vh;
+    background: linear-gradient(45deg, #dd00ff, purple);
+    border-radius: 30px;
+}
+
