@@ -86,10 +86,13 @@ body {
     border: 2px solid #dd00ff;
     border-radius: 40px;
     margin-top: 5vh;
-    transition: 0.4s ease all;
+    transition: 0.8s ease all;
+
 }
 
 .top-box:hover {
-    box-shadow: 0px 0px 1px #dd00ff,
-                0px 0px 1px #dd00ff;
+    box-shadow: 0 0 5px #dd00ff,
+                0 0 25px #dd00ff,
+                0 0 50px #dd00ff,
+                0 0 100px #dd00ff;
 }   
