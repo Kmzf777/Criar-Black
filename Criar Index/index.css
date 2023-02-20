@@ -148,11 +148,13 @@ body {
 .evolution-text {
     width: 50%;
     text-align: center;
+    cursor: default;
 }
 
 .evolution-text h2 {
     font-size: 1.8vw;
     color: rgba(255, 255, 255,1);
+    cursor: default;
 }
 
 .evolution-text span {
@@ -164,6 +166,7 @@ body {
     font-size: 1.2vw;
     color: rgba(255, 255, 255,0.6);
     font-weight: 300;
+    cursor: default;
 }
 
 
@@ -275,23 +278,32 @@ body {
     cursor: default;
   }
   
-.rocket-box .link-rocket {
+.link-rocket {
     background: linear-gradient(45deg, #dd00ff, rgb(212, 5, 212));
     color: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.2vh 3vw;
+    padding: 1.2vh 0vw;
     font-size: 1.5vw;
     border-radius: 8px;
     margin-bottom: 2vh;
-    transition: 0.3 ease all;
+    border: 2px solid transparent;
+    width: 80%;
+    transition: 0.4s ease all;
+    font-weight: 600;
   }
   
-.rocket-box .link-rocket:hover {
+.link-rocket:hover {
     cursor: pointer;
-    background: linear-gradient(45deg, rgb(212, 5, 212),#dd00ff);
+    border: 2px solid #dd00ff;
     letter-spacing: 2px;
+    background: rgb(15, 15, 15);
+    box-shadow: 0 0 1px #dd00ff,
+                0 0 5px #dd00ff,
+                0 0 10px #dd00ff,
+                0 0 20px #dd00ff;
+    color: #dd00ff;
   }
 
 .aviso {
