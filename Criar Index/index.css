@@ -258,7 +258,7 @@ body {
     cursor: default;
   }
   
-.rocket-box a {
+.rocket-box .deco-text {
     color: #dd00ff;
     text-decoration: underline;
     font-weight: 500;
@@ -275,21 +275,20 @@ body {
     cursor: default;
   }
   
-.rocket-box button {
+.rocket-box .link-rocket {
     background: linear-gradient(45deg, #dd00ff, rgb(212, 5, 212));
     color: rgba(255, 255, 255, 1);
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4px 0px;
+    padding: 1.2vh 3vw;
     font-size: 1.5vw;
     border-radius: 8px;
     margin-bottom: 2vh;
     transition: 0.3 ease all;
   }
   
-.rocket-box button:hover {
+.rocket-box .link-rocket:hover {
     cursor: pointer;
     background: linear-gradient(45deg, rgb(212, 5, 212),#dd00ff);
     letter-spacing: 2px;
