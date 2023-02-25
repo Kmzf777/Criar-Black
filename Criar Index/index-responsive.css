@@ -1,0 +1,16 @@
+
+/*Menu & Nav responsive*/
+
+@media screen and (max-width: 800px) {
+    .header {
+        display: none;
+    }
+    .nav-mobile {
+        display: flex;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    
+}
