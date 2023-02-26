@@ -1,0 +1,11 @@
+.service-text {
+  text-align: center;
+  cursor: default;
+  margin-top: 12vh;
+}
+
+.service-text h2 {
+  font-size: 3vh;
+  color: rgba(255, 255, 255, 1);
+  cursor: default;
+}
