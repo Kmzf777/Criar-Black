@@ -142,7 +142,7 @@ body {
     backdrop-filter: blur(35px);
     top: 0;
     right: 0;
-    padding: 70px 20px;
+    padding: 80px 20px;
     z-index: 899;
     margin-right: -60vw;
     transition: 0.3s ease all;
@@ -153,6 +153,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    border: 1px solid rgba(255, 255, 255,0.1);
 }
 
 
@@ -163,9 +164,13 @@ body {
 .menu-box a {
     color: white;
     margin-top: 2vh;
-    font-size: 3vw;
+    font-size: 120%;
     width: 90%;
-    text-align: start;
+    text-align: center;
+    background: rgb(255, 255, 255,0.0);
+    border-radius: 8px;
+    box-shadow: 0 15px 15px rgba(15, 15, 15, 0.19);
+    padding: 8px 0px;
 }
 
 
@@ -1554,6 +1559,7 @@ body {
     color: rgba(255, 255, 255,0.6);
     background: rgb(35, 35, 35);
     transition: 0.3s ease all;
+
 }
 
 .ctrl-btn:hover {
