@@ -3,6 +3,7 @@ import "./AboutUs.css";
 import "./AboutUs-Mobile.css";
 
 import Lampada from "../../assets/lampada.png";
+import Astronauta from "../../assets/astronauta.png";
 
 const AboutUs = () => {
   return (
@@ -15,7 +16,7 @@ const AboutUs = () => {
       <main className="top-division">
         <div className="about-left">
           <div className="about-img">
-            <img src={Lampada} alt="Lampada" />
+            <img src={Astronauta} alt="Astronauta" />
           </div>
         </div>
         <div className="about-right">

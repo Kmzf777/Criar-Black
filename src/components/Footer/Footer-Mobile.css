@@ -1,6 +1,8 @@
 @media screen and (max-width: 800px) {
   .rodape {
     width: 100%;
+
+    height: 80vh;
   }
 
   .rodape::after {

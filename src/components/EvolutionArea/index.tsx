@@ -2,8 +2,6 @@ import React, { MutableRefObject, useEffect, useRef } from "react";
 import "./EvolutionArea.css";
 import "./EvolutionArea-Mobile.css";
 
-import "../../scripts/counter.js";
-
 import Foguete from "../../assets/Foguete3D.png";
 
 type TobserverOptions = {

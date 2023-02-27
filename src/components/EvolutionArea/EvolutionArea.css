@@ -102,13 +102,14 @@
 
 .rocket-box {
   width: 45%;
-  height: 45%;
+  height: 50%;
   background: rgb(55, 55, 55);
   border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-block: 2vh;
 }
 
 .rocket-box h2 {
@@ -135,6 +136,10 @@
   color: white;
   font-weight: 400;
   cursor: default;
+}
+
+.rocket-box a {
+  width: 80%;
 }
 
 .link-rocket {
@@ -164,6 +169,7 @@
 }
 
 .aviso {
+  margin-top: 7vh;
   text-align: center;
 }
 

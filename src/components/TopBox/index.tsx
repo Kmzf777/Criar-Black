@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./TopBox.css";
 import "./TopBox-Mobile.css";
 
@@ -8,6 +8,23 @@ import JayZ from "../../assets/jay-z-interna.jpg";
 import Lampada from "../../assets/lampada.png";
 
 const TopBox = () => {
+  const [currentUsers, setCurrentUsers] = useState(
+    Math.floor(Math.random() * (30 - 25 + 1) + 25)
+  );
+
+  useEffect(() => {
+    setInterval(() => {
+      let randomChance = Math.floor(Math.random() * (3 - 1 + 1) + 1);
+
+      if (randomChance === 3) return;
+      if (currentUsers < 20 || randomChance === 2) {
+        return setCurrentUsers((currentValue) => currentValue + 1);
+      }
+
+      return setCurrentUsers((currentValue) => currentValue - 1);
+    }, 5000);
+  }, []);
+
   return (
     <section className="top-box" id="home">
       <main className="top-left">
@@ -15,12 +32,17 @@ const TopBox = () => {
           <h2>
             NÃO SOMENTE UMA <span>AGÊNCIA</span>,<span>SOMOS A REVOLUÇÃO!</span>
           </h2>
+          <div className="top-box-mobile">
+            <div className="img-box-mobile">
+              <img src={Lampada} alt="lampada" />
+            </div>
+          </div>
           <p>
             Somos responsáveis pela criação de sonhos e concretização de planos,
             somos resultados e somos dedicação! Nosso maior prazer é mostrar
             como sua empresa pode decolar, com a bagagem e experiência, tomamos
             liberdade de falar, <br />
-            <span>NÓS SOMOS O RESULTADO!</span>
+            <span>NÓS SOMOS O RESULTADO!</span>{" "}
           </p>
 
           <div className="top-buttons">
@@ -50,7 +72,7 @@ const TopBox = () => {
             </div>
             <h3>
               <div className="dot"></div>
-              500 Usuarios Online
+              {currentUsers} Usuarios Online
             </h3>
           </div>
         </div>

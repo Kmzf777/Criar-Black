@@ -5,20 +5,20 @@
   justify-content: center;
   background: rgb(25, 25, 25);
   margin-top: 15vh;
-  padding: 25px 0px;
-  background: linear-gradient(to left, #df1c78, #df1cbf);
+  background: linear-gradient(to left, #670f7f, #b42dda);
 }
 
 .rodape::after {
   content: "";
   width: 100%;
   position: absolute;
-  background: linear-gradient(45deg, #df1cbf, #df1c78);
+  background: linear-gradient(45deg, #670f7f, #670f7f);
   filter: blur(35px);
   z-index: -99;
 }
 
 .rodape-division {
+  margin-block: 5vh;
   width: 90%;
   display: flex;
   align-items: flex-start;
