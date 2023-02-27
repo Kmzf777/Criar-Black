@@ -4,7 +4,7 @@ import "./Footer-Mobile.css";
 
 const Footer = () => {
   return (
-    <section className="rodape">
+    <section className="rodape" id="contact">
       <main className="rodape-division">
         <div className="reuniao">
           <h2>Agende Sua Reunião</h2>

@@ -6,7 +6,7 @@ import Lampada from "../../assets/lampada.png";
 
 const AboutUs = () => {
   return (
-    <section className="about-us">
+    <section className="about-us" id="aboutUs">
       <div className="about-text">
         <h2>
           Quem <span>Somos?</span>

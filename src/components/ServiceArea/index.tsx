@@ -6,7 +6,7 @@ import Grafico from "../../assets/grafico.png";
 
 const ServiceArea = () => {
   return (
-    <section className="service-area">
+    <section className="service-area" id="services">
       <div className="service-text">
         <h2>
           Conheça Nossos <span>Serviços</span>

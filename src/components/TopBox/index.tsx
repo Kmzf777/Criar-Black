@@ -9,7 +9,7 @@ import Lampada from "../../assets/lampada.png";
 
 const TopBox = () => {
   return (
-    <section className="top-box">
+    <section className="top-box" id="home">
       <main className="top-left">
         <div className="top-text">
           <h2>

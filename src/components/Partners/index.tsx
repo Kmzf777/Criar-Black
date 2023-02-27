@@ -26,7 +26,7 @@ const Partners = () => {
   }
 
   return (
-    <section className="parceiros">
+    <section className="parceiros" id="partners">
       <div className="service-text">
         <h2>
           Nossos <span>Clientes</span>
@@ -34,9 +34,9 @@ const Partners = () => {
       </div>
 
       <div className="slider" id="slider">
-      <button onClick={prevSlide} className="ctrl-btn pro-prev">
-            <i className="fa fa-chevron-left" aria-hidden="true"></i>
-          </button>
+        <button onClick={prevSlide} className="ctrl-btn pro-prev">
+          <i className="fa fa-chevron-left" aria-hidden="true"></i>
+        </button>
         <div className="slide" id="slide">
           {slides.map((slide, pos) => {
             return (

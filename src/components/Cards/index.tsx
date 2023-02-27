@@ -4,7 +4,7 @@ import "./Cards-Mobile.css";
 
 const Cards = () => {
   return (
-    <section className="cards">
+    <section className="cards" id="plans">
       <div className="price-text">
         <h2>
           Nossos <span>Planos</span>

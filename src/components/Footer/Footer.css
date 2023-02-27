@@ -6,14 +6,12 @@
   background: rgb(25, 25, 25);
   margin-top: 15vh;
   padding: 25px 0px;
-  height: 45vh;
   background: linear-gradient(to left, #df1c78, #df1cbf);
 }
 
 .rodape::after {
   content: "";
   width: 100%;
-  height: 45vh;
   position: absolute;
   background: linear-gradient(45deg, #df1cbf, #df1c78);
   filter: blur(35px);
