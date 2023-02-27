@@ -1,0 +1,116 @@
+@media screen and (max-width: 800px) {
+  .rodape {
+    width: 100%;
+
+    height: 80vh;
+  }
+
+  .rodape::after {
+    height: 70vh;
+  }
+
+  .rodape-division {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .reuniao {
+    width: 80%;
+    padding: 15px 0px;
+  }
+
+  .reuniao h2 {
+    font-size: 4vw;
+  }
+
+  .reuniao h3 {
+    font-size: 2vw;
+  }
+
+  .underline input {
+    font-size: 3vw;
+  }
+
+  .reuniao button {
+    background: linear-gradient(45deg, #580272, rgb(108, 44, 138));
+    width: 100%;
+    border-radius: 8px;
+    padding: 7px 0px;
+    font-size: 4vw;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 3vh;
+    transition: 0.3s ease all;
+  }
+
+  .reuniao button:hover {
+    cursor: default;
+  }
+
+  .endereco {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 10px 0px;
+  }
+
+  .endereco h2 {
+    font-size: 3vw;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+  }
+
+  .endereco .contato {
+    font-size: 3vw;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    margin-top: 5vh;
+  }
+
+  .endereco h3 {
+    font-size: 2vw;
+    margin-top: 1vh;
+  }
+
+  .endereco a {
+    font-size: 2.2vw;
+  }
+
+  .endereco a:hover {
+    transform: translateY(-3px);
+    color: #580272;
+    cursor: default;
+  }
+
+  .endereco i {
+    font-size: 2.2vw;
+  }
+
+  .outros {
+    width: 42%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 10px 0px;
+  }
+
+  .outros h2 {
+    font-size: 3vw;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+  }
+
+  .outros a {
+    font-size: 2vw;
+  }
+
+  .outros a:hover {
+    cursor: default;
+  }
+}
