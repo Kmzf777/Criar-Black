@@ -1,0 +1,202 @@
+.rodape {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(25, 25, 25);
+  margin-top: 15vh;
+  background: linear-gradient(to left, #670f7f, #b42dda);
+}
+
+.rodape::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #670f7f, #670f7f);
+  filter: blur(35px);
+  z-index: -99;
+}
+
+.rodape-division {
+  margin-block: 5vh;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.reuniao {
+  width: 22%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 10px 0px;
+}
+
+.reuniao h2 {
+  font-size: 1.5vw;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+}
+
+.reuniao h3 {
+  font-size: 0.9vw;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 200;
+}
+
+.underline {
+  width: 100%;
+  position: relative;
+  margin-top: 1.5vh;
+}
+.underline:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  border-radius: 5px;
+  background: #580272;
+  transition: 0.3s ease-in-out;
+  filter: blur(5px);
+  z-index: 999;
+}
+
+.underline::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  z-index: 999;
+  background: #580272;
+  transition: 0.3s ease-in-out;
+}
+
+.underline:focus-within:after {
+  width: 100%;
+}
+
+.underline:focus-within::before {
+  width: 100%;
+}
+.underline input {
+  font-size: 1.2vw;
+  width: 100%;
+  background: transparent;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  height: 6vh;
+  transition: 0.3s ease-out;
+  color: #fff;
+}
+
+.underline input::placeholder {
+  transition: 0.3s ease all;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.underline:focus-within input::placeholder {
+  color: #580272;
+}
+
+.reuniao button {
+  background: linear-gradient(45deg, #580272, rgb(108, 44, 138));
+  width: 100%;
+  border-radius: 8px;
+  padding: 7px 0px;
+  font-size: 1.4vw;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 3vh;
+  transition: 0.3s ease all;
+}
+
+.reuniao button:hover {
+  background: linear-gradient(45deg, rgb(108, 44, 138), #580272);
+  letter-spacing: 4px;
+  transform: translateY(-0.5vh);
+  cursor: pointer;
+}
+
+.endereco {
+  width: 22%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 10px 0px;
+}
+
+.endereco h2 {
+  font-size: 1.5vw;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+}
+
+.endereco .contato {
+  font-size: 1.5vw;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  margin-top: 5vh;
+}
+
+.endereco h3 {
+  font-size: 1.1vw;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 200;
+  margin-top: 1vh;
+}
+
+.endereco a {
+  font-size: 1.1vw;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+  margin-top: 1.5vh;
+  transition: 0.3s ease all;
+}
+
+.endereco a:hover {
+  transform: translateY(-3px);
+  color: #580272;
+}
+
+.endereco i {
+  font-size: 1.1vw;
+  margin-right: 0.5vw;
+}
+
+.outros {
+  width: 22%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 10px 0px;
+}
+
+.outros h2 {
+  font-size: 1.5vw;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+}
+
+.outros a {
+  font-size: 1.1vw;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+  margin-top: 1.5vh;
+  transition: 0.3s ease all;
+}
+
+.outros a:hover {
+  transform: translateY(-3px);
+  color: #580272;
+}

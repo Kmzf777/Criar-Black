@@ -1,0 +1,62 @@
+import React from "react";
+import "./ServiceArea.css";
+import "./ServiceArea-Mobile.css";
+
+import Grafico from "../../assets/grafico.png";
+import GestaoRedesSociais from "../../assets/gestao_redes_sociais.png";
+import Marketing from "../../assets/marketing.png";
+import DesenvolvimentoWeb from "../../assets/desenvolvimento-web.png";
+import DesignerECriacao from "../../assets/designer_e_criacao.png";
+
+import video from "../../assets/Inbound.mp4";
+
+const ServiceArea = () => {
+  return (
+    <section className="service-area" id="services">
+      <div className="service-text">
+        <h2>
+          Conheça Nossos <span>Serviços</span>
+        </h2>
+      </div>
+      <main className="service-division">
+        <div className="service-box">
+          <h2>Gestão de Redes Sociais</h2>
+          <div className="service-img">
+            <img src={GestaoRedesSociais} alt="Gráfico Redes Sociais" />
+          </div>
+
+          <h3>ANÁLISE COMPLETA, BENCHMARKETING E PLANO ESTRUTURAL</h3>
+        </div>
+        <div className="service-box">
+          <h2>Marketing Estrategico e SEO</h2>
+          <div className="service-img">
+            <img src={Marketing} alt="Gráfico Marketing" />
+          </div>
+          <h3>ESTRATEGIA FOCADA EM MARKETING E SEO</h3>
+        </div>
+        <div className="service-box">
+          <h2>Desenvolvimento Web</h2>
+          <div className="service-img">
+            <img src={DesenvolvimentoWeb} alt="Desenvolvimento Web" />
+          </div>
+          <h3>DESENVOLVIMENTO DE LANDING PAGES E-COMMERCE E OUTROS</h3>
+        </div>
+        <div className="service-box">
+          <h2>Designer e Criação Publicitária</h2>
+          <div className="service-img">
+            <img src={DesignerECriacao} alt="PC Designer" />
+          </div>
+          <h3>CRIAÇÃO DE IDENTIDADES VISUAIS E SUAS DEMANDAS</h3>
+        </div>
+      </main>
+
+      <main className="video">
+        <div className="video-box">
+          <video width={1280} height={720} src={video} controls></video>
+        </div>
+      </main>
+    </section>
+  );
+};
+
+export default ServiceArea;

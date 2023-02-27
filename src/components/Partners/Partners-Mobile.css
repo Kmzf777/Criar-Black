@@ -1,0 +1,5 @@
+@media screen and (max-width: 620px) {
+  .parceiro-box-inner img {
+    width: 30vh;
+  }
+}
