@@ -1,48 +1,41 @@
 .price-text {
   text-align: center;
   cursor: default;
-  margin-top: 12vh;
+  margin-top: 0vh;
   width: 100%;
 }
 
-@media screen and (max-width: 920px) {
-  .price-text {
-    margin-top: 5vh;
-  }
-}
-
 .price-text h2 {
-  font-size: 3vh;
+  font-size: 1.8vw;
   color: rgba(255, 255, 255, 1);
   cursor: default;
 }
 
 .price-text h3 {
-  font-size: 2.5vh;
+  font-size: 1vw;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   cursor: default;
 }
 
 .price-text span {
-  color: #dd00ff;
+  color: #df1c78;
   text-decoration: underline;
 }
 
 .cards {
-  width: 90%;
-  height: 150vh;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .card-box {
   position: relative;
   width: 24vw;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -220,23 +213,16 @@
   border-radius: 15px;
   z-index: 1;
   width: 100%;
-  height: 75%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-@media screen and (max-width: 920px) {
-  .inner-card {
-    height: fit-content;
-  }
-}
-
 .card-tittle {
-  font-size: 2vh;
+  font-size: 1vw;
   font-weight: 600;
   color: #f3e071;
-  margin-bottom: -4%;
+  margin-bottom: -5%;
   letter-spacing: 8px;
 }
 
@@ -251,14 +237,14 @@
 }
 
 .card-text h2 {
-  font-size: 4vh;
+  font-size: 3.5vw;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: -2vh;
 }
 
 .card-text h4 {
-  font-size: 2vh;
+  font-size: 1vw;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.9);
 }
@@ -271,6 +257,7 @@
 .inner-card ul {
   width: 100%;
   margin-top: 5%;
+  padding: 0;
 }
 
 .inner-card li {
@@ -296,12 +283,12 @@
 .flex-text h3 {
   color: rgba(255, 255, 255, 0.9);
   font-weight: 400;
-  font-size: 2.5vh;
+  font-size: 1.1vw;
 }
 
 .flex-text i {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 1.5vh;
+  font-size: 0.9vw;
 }
 
 .gold li:last-child h3,
@@ -341,17 +328,6 @@
   transition: 0.5s;
   opacity: 0.01;
   filter: blur(50px);
-}
-
-@media screen and (max-width: 510px) {
-  .card-box {
-    width: 100%;
-    margin-block: 4vh;
-  }
-  .card-box2 {
-    width: 100%;
-    margin: 0;
-  }
 }
 
 .emerald::before {

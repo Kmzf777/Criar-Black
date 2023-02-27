@@ -1,5 +1,6 @@
 import React, { MutableRefObject, useEffect, useRef } from "react";
 import "./EvolutionArea.css";
+import "./EvolutionArea-Mobile.css";
 
 import "../../scripts/counter.js";
 
@@ -119,9 +120,9 @@ const EvolutionArea = () => {
       <main className="rocket-info">
         <div className="rocket-decoration">
           <div className="rocket-img">
-            <img src={Foguete} alt="foguete criar-ideias" />
+            <img src={Foguete} alt="Foguete" />
           </div>
-          <div className="boneco-img" data-tilt>
+          <div className="boneco-img">
             <img src=".png" alt="" />
           </div>
         </div>
@@ -147,18 +148,17 @@ const EvolutionArea = () => {
               1.000.000
             </h2>
             <h3>
-              Novos Clientes conhecerão seu
+              Novos Clientes conhecerão seu{" "}
               <span className="deco-text">NEGÓCIO</span>
             </h3>
           </div>
           <div className="rocket-box" data-tilt>
-            <a className="link-rocket" href="#">
-              {" "}
-              Clique Aqui!{" "}
+            <a href="#">
+              <button className="link-rocket">Clique Aqui!</button>
             </a>
 
             <h3>
-              Clique acima para conferir o valor do
+              Clique acima para conferir o valor do{" "}
               <span className="deco-text">FOGUETE</span>
             </h3>
           </div>
@@ -178,6 +178,7 @@ const EvolutionArea = () => {
             </h3>
           </div>
         </div>
+        <script src="counter.js"></script>
         <div className="aviso">
           <h4>Valores ilustrativos</h4>
 

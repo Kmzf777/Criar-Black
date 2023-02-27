@@ -1,6 +1,6 @@
 .evolution-area {
-  width: 90%;
-  margin-top: 12vh;
+  width: 100%;
+  margin-top: 10.5vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,24 +14,18 @@
 }
 
 .evolution-text h2 {
-  font-size: 3.5vh;
+  font-size: 1.8vw;
   color: rgba(255, 255, 255, 1);
   cursor: default;
 }
 
-@media screen and (max-width: 920px) {
-  .evolution-text {
-    width: 100%;
-  }
-}
-
 .evolution-text span {
-  color: #dd00ff;
+  color: #df1c78;
   text-decoration: underline;
 }
 
 .evolution-text h3 {
-  font-size: 2.4vh;
+  font-size: 1.2vw;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 300;
   cursor: default;
@@ -60,18 +54,12 @@
   border-radius: 29% 71% 54% 46% / 44% 57% 43% 56%;
   width: 35vw;
   height: 70vh;
-  background: linear-gradient(85deg, #dd00ff, purple);
+  background: linear-gradient(85deg, #670f7f, #df1c78);
   margin-left: 0%;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media screen and (max-width: 920px) {
-  .rocket-img {
-    width: 100%;
-  }
 }
 
 .rocket-img img {
@@ -88,7 +76,7 @@
   height: 70vh;
   margin-left: 0%;
   position: relative;
-  background: rgb(212, 5, 212);
+  background: linear-gradient(85deg, #df1c78, #670f7f);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,12 +88,6 @@
   transform: rotate(0deg);
   margin-left: -80px;
   margin-top: -100px;
-}
-
-@media screen and (max-width: 920px) {
-  .boneco-img {
-    display: none;
-  }
 }
 
 .rocket-numbers {
@@ -134,25 +116,12 @@
   text-align: center;
   color: white;
   font-weight: 600;
-  font-size: 3vh;
+  font-size: 3vw;
   cursor: default;
 }
 
-@media screen and (max-width: 920px) {
-  .rocket-numbers {
-    width: 100%;
-    height: fit-content;
-  }
-  .rocket-box {
-    width: 100%;
-    height: fit-content;
-    padding: 4vh;
-    margin-bottom: 3vh;
-  }
-}
-
 .rocket-box .deco-text {
-  color: #dd00ff;
+  color: #df1c78;
   text-decoration: underline;
   font-weight: 500;
   width: 80%;
@@ -161,7 +130,7 @@
 
 .rocket-box h3 {
   width: 90%;
-  font-size: 2vh;
+  font-size: 1vw;
   text-align: center;
   color: white;
   font-weight: 400;
@@ -169,29 +138,29 @@
 }
 
 .link-rocket {
-  background: linear-gradient(45deg, #dd00ff, rgb(212, 5, 212));
+  background: linear-gradient(45deg, #df1c78, rgb(212, 5, 212));
   color: rgba(255, 255, 255, 1);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.2vh 0vw;
-  font-size: 2vh;
+  padding: 2vh;
+  font-size: 1.5vw;
   border-radius: 8px;
   margin-bottom: 2vh;
   border: 2px solid transparent;
-  width: 80%;
+  width: 100%;
   transition: 0.4s ease all;
   font-weight: 600;
 }
 
 .link-rocket:hover {
   cursor: pointer;
-  border: 2px solid #dd00ff;
+  border: 2px solid #df1c78;
   letter-spacing: 2px;
   background: rgb(15, 15, 15);
-  box-shadow: 0 0 1px #dd00ff, 0 0 5px #dd00ff, 0 0 10px #dd00ff,
-    0 0 20px #dd00ff;
-  color: #dd00ff;
+  box-shadow: 0 0 1px #df1c78, 0 0 5px #df1c78, 0 0 10px #df1c78,
+    0 0 20px #df1c78;
+  color: #df1c78;
 }
 
 .aviso {
@@ -201,12 +170,12 @@
 .aviso h4 {
   color: rgba(255, 255, 255, 0.1);
   font-weight: 300;
-  font-size: 2.5vh;
+  font-size: 1vw;
 }
 
 .aviso h2 {
   color: rgba(255, 255, 255, 1);
   font-weight: 400;
-  font-size: 2.5vh;
+  font-size: 1.4vw;
   margin-top: 1vh;
 }

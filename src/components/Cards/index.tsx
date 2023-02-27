@@ -1,5 +1,6 @@
 import React from "react";
 import "./Cards.css";
+import "./Cards-Mobile.css";
 
 const Cards = () => {
   return (
@@ -12,7 +13,9 @@ const Cards = () => {
           Clique no plano que <span>Deseja!</span>
         </h3>
       </div>
+
       {/* CARDS BASIC */}
+
       <div
         className="card-box2 bronze"
         data-tilt
@@ -68,6 +71,7 @@ const Cards = () => {
           </ul>
         </div>
       </div>
+
       <div
         className="card-box2 silver"
         data-tilt
@@ -123,6 +127,7 @@ const Cards = () => {
           </ul>
         </div>
       </div>
+
       <div
         className="card-box2 emerald"
         data-tilt
@@ -180,6 +185,7 @@ const Cards = () => {
       </div>
 
       {/* CARDS PREMIUM */}
+
       <div
         className="card-box gold"
         data-tilt
@@ -235,6 +241,7 @@ const Cards = () => {
           </ul>
         </div>
       </div>
+
       <div
         className="card-box diamond"
         data-tilt

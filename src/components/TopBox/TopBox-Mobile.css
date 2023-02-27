@@ -1,0 +1,115 @@
+@media screen and (max-width: 800px) {
+  .top-box {
+    height: auto;
+    width: 100%;
+    margin-top: 2vh;
+    align-items: flex-start;
+  }
+
+  .top-left {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .top-right {
+    display: none;
+  }
+
+  .top-text {
+    width: 90%;
+  }
+
+  .top-text h2 {
+    font-size: 8vw;
+    line-height: 80px;
+  }
+
+  .top-text p {
+    font-size: 2.2vw;
+  }
+
+  .top-buttons {
+    width: 80vw;
+    margin-top: 3vh;
+  }
+
+  .user-online h3 {
+    font-size: 2vw;
+    margin-left: 2vw;
+  }
+
+  .explore:hover {
+    cursor: default;
+  }
+
+  .read:hover {
+    cursor: default;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .top-text h2 {
+    font-size: 9vw;
+    line-height: 65px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .top-box {
+    height: auto;
+    width: 100%;
+    margin-top: 0vh;
+    align-items: flex-start;
+  }
+
+  .top-left {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .top-text h2 {
+    line-height: 65px;
+  }
+
+  .top-text p {
+    font-size: 2.5vw;
+  }
+
+  .top-buttons {
+    width: 80vw;
+    margin-top: 2vh;
+  }
+
+  .user-online h3 {
+    font-size: 2vw;
+    margin-left: 2vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .top-text p {
+    font-size: 2.8vh;
+  }
+
+  .top-buttons {
+    width: 80vw;
+    margin-top: 3vh;
+  }
+
+  .user-online h3 {
+    font-size: 3.5vw;
+    margin-left: 2vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .top-buttons {
+    width: 80vw;
+    margin-top: 3vh;
+  }
+
+  .user-online h3 {
+    font-size: 4vw;
+    margin-left: 3vw;
+  }
+}
