@@ -173,7 +173,7 @@ body {
 .dash-overflow {
     width: 100%;
     height: 100%;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -963,13 +963,13 @@ body {
 }
 
 .calendar-day {
-    width: 40vw;
+    width: 18vw;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    padding: 2vh 0vw;
+    padding: 1vh 0vw;
+    height: 30vh;
 }
 
 .calendar-day h2 {
@@ -984,6 +984,16 @@ body {
     font-weight: 400;
     letter-spacing: 4px;
     margin-top: -5vh;
+}
+
+.especial-day {
+    width: 18vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1vh 0vw;
+    height: 30vh;
 }
 
 .create-day {
