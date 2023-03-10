@@ -39,7 +39,7 @@ const ServiceArea = () => {
           <div className="service-img">
             <img src={DesenvolvimentoWeb} alt="Desenvolvimento Web" />
           </div>
-          <h3>DESENVOLVIMENTO DE LANDING PAGES E-COMMERCE E OUTROS</h3>
+          <h3>DESENVOLVIMENTO DE LANDING PAGES E-COMMERCE E OUTROS</h3>z
         </div>
         <div className="service-box">
           <h2>Designer e Criação Publicitária</h2>
