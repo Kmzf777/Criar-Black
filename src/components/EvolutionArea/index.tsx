@@ -121,7 +121,6 @@ const EvolutionArea = () => {
             <img src={Foguete} alt="Foguete" />
           </div>
           <div className="boneco-img">
-            <img src=".png" alt="" />
           </div>
         </div>
 
