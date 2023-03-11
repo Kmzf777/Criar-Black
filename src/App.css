@@ -12,6 +12,13 @@
   font-family: Poppins, sans-serif;
 }
 
+:root {
+  --principal1:;
+  --principal2:;
+  --sub1:;
+  --sub2:;
+}
+
 body {
   background: rgb(25, 25, 25);
   min-height: 100vh;
@@ -24,3 +31,4 @@ body {
 a {
   text-decoration: none;
 }
+

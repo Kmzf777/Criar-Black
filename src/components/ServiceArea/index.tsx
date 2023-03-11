@@ -50,6 +50,33 @@ const ServiceArea = () => {
         </div>
       </main>
 
+      <main className="gestao-area">
+        <main className="gestao-text">
+          <h2><span> AUMENTE SUA </span> 
+          <div className="eficiencia">
+          <h2>EFICIÊNCIA</h2>
+          <h2>EFICIÊNCIA</h2>
+          <h2>EFICIÊNCIA</h2>
+          <h2>EFICIÊNCIA</h2>
+          <h2>EFICIÊNCIA</h2>
+
+
+
+
+          </div> <span>OPERACIONAL</span></h2>
+        </main>
+        <main className="gestao-deco">
+          <div className="first-box">
+            <h2>GESTÃO COMERCIAL EFICIÊNTE</h2>
+          </div>
+          <div className="last-box"></div>
+          <div className="box-img">
+            <img src="" alt="" />
+          </div>
+          
+        </main>
+      </main>
+
       <main className="video">
         <div className="video-box">
           <video width={1280} height={720} src={video} controls></video>

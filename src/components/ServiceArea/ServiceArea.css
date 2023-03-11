@@ -126,3 +126,150 @@
   filter: blur(35px);
   animation: pulse-top 5s ease infinite;
 }
+
+
+.gestao-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  margin-top: 15vh;
+}
+
+.gestao-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 40%;
+}
+
+.gestao-text h2 {
+  color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  text-align: center;
+  font-size: 5vw;
+  line-height: 11vh;
+}
+
+.gestao-text h2 span:nth-child(1) {
+  font-weight: 400;
+  letter-spacing: 0.23vw;
+}
+
+.eficiencia h2 {
+  letter-spacing: 0.92vw;
+  font-weight: 800;
+  color: #df1c78;
+}
+
+.eficiencia h2:nth-child(1) {
+  opacity: 0.1;
+  filter: blur(1.5px);
+}
+
+.eficiencia h2:nth-child(2) {
+  opacity: 0.2;
+  filter: blur(0.5px);
+}
+
+.eficiencia h2:nth-child(3) {
+  opacity: 0.4;
+  filter: blur(0.1px);
+}
+
+.eficiencia h2:nth-child(4) {
+  opacity: 0.59;
+}
+
+.eficiencia h2:nth-child(5) {
+  opacity: 1;
+}
+
+.gestao-text h2 span:nth-child(3) {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+
+
+.gestao-deco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  height: 80vh;
+  position: relative;
+}
+
+@keyframes jump-box {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.first-box {
+  background: rgb(35,35,35);
+  width: 20vw;
+  height: 22vw;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  animation: jump-box 6s ease-in-out infinite;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.first-box h2 {
+  color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  text-align: center;
+  font-size: 3vw;
+  font-weight: 800;
+  z-index: 899;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.box-img {
+  background: rgb(35,35,35);
+  width: 20vw;
+  height: 22vw;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 899;
+  overflow: hidden;
+  animation: jump-box 8s ease-in-out infinite;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.last-box {
+  background: rgb(35,35,35);
+  width: 20vw;
+  height: 22vw;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  animation: jump-box 10s ease-in-out infinite;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  z-index: 699;
+}
