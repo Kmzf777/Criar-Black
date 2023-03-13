@@ -63,7 +63,7 @@
   }
 
   .explore {
-    background: #df1c78;
+    background: var(--principal1);
     max-width: 30%;
     width: 30%;
     padding: 10px 0px;
@@ -71,7 +71,7 @@
     color: rgba(255, 255, 255, 0.9);
     font-size: 2vw;
     font-weight: 500;
-    border: 2px solid #df1c78;
+    border: 2px solid var(--principal1);
     transition: 0.3s ease all;
   }
 
@@ -100,7 +100,7 @@
   .img-box-mobile {
     width: 100%;
     height: 100%;
-    background: #df1c77;
+    background: var(--principal1);
     border-radius: 25px;
     transform: skewX(-20deg);
     margin-right: -45vw;
@@ -114,7 +114,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #df1c78;
+    background: var(--principal1);
     border-radius: 25px;
     transform: skewX(0deg);
     margin-right: -45vw;
@@ -158,7 +158,7 @@
   .img-box-mobile {
     width: 100%;
     height: 100%;
-    background: #df1c77;
+    background: var(--principal1);
     border-radius: 25px;
     transform: skewX(-20deg);
     margin-right: -45vw;
@@ -172,7 +172,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #df1c78;
+    background: var(--principal1);
     border-radius: 25px;
     transform: skewX(0deg);
     margin-right: -45vw;
@@ -234,7 +234,7 @@
   .img-box-mobile {
     width: 100%;
     height: 100%;
-    background: #df1c77;
+    background: var(--principal1);
     border-radius: 25px;
     transform: skewX(-20deg);
     margin-right: -45vw;
@@ -248,7 +248,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #df1c78;
+    background: var(--principal1);
     border-radius: 25px;
     transform: skewX(0deg);
     margin-right: -45vw;
@@ -308,7 +308,7 @@
   .img-box-mobile {
     width: 100%;
     height: 100%;
-    background: #df1c77;
+    background: var(--principal1);
     border-radius: 25px;
     transform: skewX(-20deg);
     margin-right: -45vw;
@@ -322,7 +322,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #df1c78;
+    background: var(--principal1);
     border-radius: 25px;
     transform: skewX(0deg);
     margin-right: -45vw;
@@ -381,7 +381,7 @@
   .img-box-mobile {
     width: 100%;
     height: 100%;
-    background: #df1c77;
+    background: var(--principal1);
     border-radius: 25px;
     transform: skewX(-20deg);
     margin-right: -45vw;
@@ -395,7 +395,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #df1c78;
+    background: var(--principal1);
     border-radius: 25px;
     transform: skewX(0deg);
     margin-right: -45vw;

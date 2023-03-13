@@ -67,7 +67,6 @@ const ServiceArea = () => {
         </main>
         <main className="gestao-deco">
           <div className="first-box">
-            <h2>GESTÃO COMERCIAL EFICIÊNTE</h2>
           </div>
           <div className="last-box"></div>
           <div className="box-img">

@@ -1,3 +1,9 @@
+:root {
+  --principal1: #822faf;
+  --principal2: #ba00f3;
+}
+
+
 .evolution-area {
   width: 100%;
   margin-top: 10.5vh;
@@ -20,7 +26,7 @@
 }
 
 .evolution-text span {
-  color: #df1c78;
+  color: var(--principal1);
   text-decoration: underline;
 }
 
@@ -54,7 +60,7 @@
   border-radius: 29% 71% 54% 46% / 44% 57% 43% 56%;
   width: 35vw;
   height: 70vh;
-  background: linear-gradient(85deg, #670f7f, #df1c78);
+  background: linear-gradient(85deg, var(--principal2), var(--principal1));
   margin-left: 0%;
   position: relative;
   display: flex;
@@ -76,7 +82,7 @@
   height: 70vh;
   margin-left: 0%;
   position: relative;
-  background: linear-gradient(85deg, #df1c78, #670f7f);
+  background: linear-gradient(85deg, var(--principal1), var(--principal2));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,7 +128,7 @@
 }
 
 .rocket-box .deco-text {
-  color: #df1c78;
+  color: var(--principal1);
   text-decoration: underline;
   font-weight: 500;
   width: 80%;
@@ -143,7 +149,7 @@
 }
 
 .link-rocket {
-  background: linear-gradient(45deg, #df1c78, rgb(212, 5, 212));
+  background: linear-gradient(45deg, var(--principal1), rgb(212, 5, 212));
   color: rgba(255, 255, 255, 1);
   display: flex;
   align-items: center;
@@ -160,12 +166,12 @@
 
 .link-rocket:hover {
   cursor: pointer;
-  border: 2px solid #df1c78;
+  border: 2px solid var(--principal1);
   letter-spacing: 2px;
   background: rgb(15, 15, 15);
-  box-shadow: 0 0 1px #df1c78, 0 0 5px #df1c78, 0 0 10px #df1c78,
-    0 0 20px #df1c78;
-  color: #df1c78;
+  box-shadow: 0 0 1px var(--principal1), 0 0 5px var(--principal1), 0 0 10px var(--principal1),
+    0 0 20px var(--principal1);
+  color: var(--principal1);
 }
 
 .aviso {

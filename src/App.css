@@ -13,10 +13,8 @@
 }
 
 :root {
-  --principal1:;
-  --principal2:;
-  --sub1:;
-  --sub2:;
+  --principal1: #822faf;
+  --principal2: #ba00f3;
 }
 
 body {

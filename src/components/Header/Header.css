@@ -193,7 +193,7 @@
 }
 
 .nav-sections a:hover {
-  color: #df1c78;
+  color: var(--principal1);
   cursor: pointer;
 }
 

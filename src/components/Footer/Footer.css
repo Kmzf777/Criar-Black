@@ -5,14 +5,14 @@
   justify-content: center;
   background: rgb(25, 25, 25);
   margin-top: 15vh;
-  background: linear-gradient(to left, #670f7f, #b42dda);
+  background: linear-gradient(45deg, var(--principal1), var(--principal2));
 }
 
 .rodape::after {
   content: "";
   width: 100%;
   position: absolute;
-  background: linear-gradient(45deg, #670f7f, #670f7f);
+  background: linear-gradient(45deg, var(--principal1), var(--principal2));
   filter: blur(35px);
   z-index: -99;
 }

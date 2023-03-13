@@ -19,7 +19,7 @@
 }
 
 .price-text span {
-  color: #df1c78;
+  color: var(--principal1);
   text-decoration: underline;
 }
 

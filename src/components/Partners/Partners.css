@@ -76,7 +76,7 @@
   justify-content: center;
   border-radius: 8px;
   position: absolute;
-  background: #df1c78;
+  background: var(--principal1);
   transition: 0.3s ease all;
 }
 
@@ -90,7 +90,7 @@
   border-radius: 15px;
   position: absolute;
   filter: blur(10px);
-  background: #df1c78;
+  background: var(--principal1);
   transition: 0.5s ease all;
 }
 
@@ -146,7 +146,7 @@
 }
 
 .ctrl-btn:hover {
-  color: #df1c78;
+  color: var(--principal1);
 }
 
 .ctrl-btn i {
