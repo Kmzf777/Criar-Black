@@ -1,0 +1,58 @@
+.service-box:nth-child(2) img {
+    width: 85%;
+    margin-top: -10%;
+    position: absolute;
+  }
+  
+  
+  
+  .service-box {
+    width: 17.5vw;
+    background: rgb(255, 255, 255, 0.08);
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s ease all;
+    cursor: default;
+    margin-top: 4vh;
+  }
+  
+  .service-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 25px 15px rgb(0, 0, 0, 0.5);
+  }
+  
+  .service-box h2 {
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 28px;
+  }
+  
+  .service-box h3 {
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 4vh;
+  }
+
+  .service-img {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background: linear-gradient(45deg, var(--principal1),var(--principal2));
+    width: 15vw;
+    height: 30vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+  }
+  
+  .service-img img {
+    width: 130%;
+    position: absolute;
+  }
