@@ -76,6 +76,12 @@ const ServiceArea = () => {
         </main>
       </main>
 
+      <main className="gestao-area">
+        <div className="info-box">
+          <h2></h2>
+        </div>
+      </main>
+
       <main className="video">
         <div className="video-box">
           <video width={1280} height={720} src={video} controls></video>

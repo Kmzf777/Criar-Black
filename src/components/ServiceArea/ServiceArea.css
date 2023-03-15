@@ -1,7 +1,4 @@
-:root {
-  --principal1: #822faf;
-  --principal2: #c9184a;
-}
+
 
 .service-area {
   width: 100%;
@@ -139,6 +136,10 @@
   justify-content: space-between;
   width: 90vw;
   margin-top: 15vh;
+}
+
+.gestao-area:last-child {
+  justify-content: space-around;
 }
 
 .gestao-text {
