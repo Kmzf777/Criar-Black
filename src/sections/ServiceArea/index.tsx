@@ -8,7 +8,7 @@ import DesenvolvimentoWeb from "../../assets/desenvolvimento-web.png";
 import DesignerECriacao from "../../assets/designer_e_criacao.png";
 
 import video from "../../assets/Inbound.mp4";
-import ServiceBox from "../ServiceBox";
+import ServiceBox from "../../components/ServiceBox";
 
 const ServiceArea = () => {
   return (

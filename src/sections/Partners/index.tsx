@@ -1,7 +1,7 @@
 import "./Partners.css";
 import "./Partners-Mobile.css";
 
-import PartnerItem from "../PartnerItem";
+import PartnerItem from "../../components/PartnerItem";
 import LogoSiteBranco from "../../assets/logo_site_branco.png";
 
 const Partners = () => {
