@@ -1,5 +1,6 @@
 import React from 'react'
 import "./ServiceBox.css";
+import "./ServiceBox-Mobile.css";
 
 interface IProps {
     titulo: string;

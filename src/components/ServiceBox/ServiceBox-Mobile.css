@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px) {
+    .service-img {
+        width: 70%;
+        height: 45vw;
+        margin-top: 3vh;
+      }
+    
+      .service-img img {
+        width: 150%;
+        position: absolute;
+      }
+    
+      .service-box {
+        width: 80.5%;
+        margin-top: 3vh;
+      }
+    
+      .service-box h2 {
+        font-size: 3.5vw;
+      }
+    
+      .service-box h3 {
+        font-size: 2vw;
+        margin-top: 5vh;
+      }
+    
+      .service-box:hover {
+        transform: scale(1);
+        box-shadow: 0 5px 15px rgb(0, 0, 0, 0.1);
+      }
+}

@@ -11,6 +11,21 @@
     margin-right: 0;
   }
 
+  .service-text h2 {
+    font-size: 4vw;
+    color: rgba(255, 255, 255, 1);
+    cursor: default;
+  }
+
+  .service-division {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 5vh;
+  }
+
   .parceiro-box {
     width: 25vw;
     height: 5vh;
