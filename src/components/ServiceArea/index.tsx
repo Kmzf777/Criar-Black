@@ -70,7 +70,7 @@ const ServiceArea = () => {
           </div>
           <div className="last-box"></div>
           <div className="box-img">
-            <img src="" alt="" />
+            
           </div>
           
         </main>
@@ -78,7 +78,16 @@ const ServiceArea = () => {
 
       <main className="gestao-area">
         <div className="info-box">
-          <h2></h2>
+          <h2>Bla Bla Bla</h2>
+          <h3>bla bla bla</h3>
+          <img src={DesignerECriacao} alt="" />
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab molestias dignissimos repellendus laboriosam distinctio unde eum nisi magnam hic tempora. Dolorem obcaecati minus totam vero provident fugiat, dolorum dicta quod.</p>
+        </div>
+        <div className="info-box">
+          <h2>Bla Bla Bla</h2>
+          <h3>bla bla bla</h3>
+          <img src={DesignerECriacao} alt="" />
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab molestias dignissimos repellendus laboriosam distinctio unde eum nisi magnam hic tempora. Dolorem obcaecati minus totam vero provident fugiat, dolorum dicta quod.</p>
         </div>
       </main>
 
