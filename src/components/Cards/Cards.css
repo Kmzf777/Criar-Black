@@ -291,8 +291,8 @@
   font-size: 0.9vw;
 }
 
-.gold li:last-child h3,
-.gold li:last-child i {
+.negative h3,
+.negative i {
   color: rgba(255, 255, 255, 0.3);
 }
 

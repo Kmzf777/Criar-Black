@@ -39,32 +39,34 @@ const Cards = () => {
               </div>
             </li>
             <li>
-              <div className="flex-text">
+              <div className="flex-text negative">
                 <h3>Trafego Pago</h3>
-                <i className="fa fa-check" aria-hidden="true"></i>
+                <i className="fa fa-times" aria-hidden="true"></i>
               </div>
             </li>
             <li>
-              <div className="flex-text">
-                <h3>Gestão De Equipe</h3>
-                <i className="fa fa-check" aria-hidden="true"></i>
-              </div>
-            </li>
-            <li>
-              <div className="flex-text">
-                <h3>Gestão Financeira</h3>
-                <i className="fa fa-check" aria-hidden="true"></i>
-              </div>
-            </li>
-            <li>
-              <div className="flex-text">
+              <div className="flex-text negative">
                 <h3>WebSite Premium</h3>
-                <i className="fa fa-check" aria-hidden="true"></i>
+                <i className="fa fa-times" aria-hidden="true"></i>
+              </div>
+            </li>
+            
+            <li>
+              <div className="flex-text negative">
+                <h3>Gestão Financeira</h3>
+                <i className="fa fa-times" aria-hidden="true"></i>
+              </div>
+            </li>
+            
+            <li>
+              <div className="flex-text negative">
+                <h3>Atendimento Priorizado</h3>
+                <i className="fa fa-times" aria-hidden="true"></i>
               </div>
             </li>
             <li>
-              <div className="flex-text">
-                <h3>Atendimento Priorizado</h3>
+              <div className="flex-text negative">
+                <h3>Gestão De Equipe</h3>
                 <i className="fa fa-times" aria-hidden="true"></i>
               </div>
             </li>
@@ -81,7 +83,7 @@ const Cards = () => {
       >
         <span></span>
         <div className="inner-card">
-          <h3 className="card-tittle">Prata</h3>
+          <h3 className="card-tittle">Silver</h3>
           <div className="card-text">
             <h4>R$</h4>
             <h2>800</h2>
@@ -101,26 +103,29 @@ const Cards = () => {
               </div>
             </li>
             <li>
-              <div className="flex-text">
-                <h3>Gestão De Equipe</h3>
-                <i className="fa fa-check" aria-hidden="true"></i>
-              </div>
-            </li>
-            <li>
-              <div className="flex-text">
-                <h3>Gestão Financeira</h3>
-                <i className="fa fa-check" aria-hidden="true"></i>
-              </div>
-            </li>
-            <li>
-              <div className="flex-text">
+              <div className="flex-text negative">
                 <h3>WebSite Premium</h3>
-                <i className="fa fa-check" aria-hidden="true"></i>
+                <i className="fa fa-times" aria-hidden="true"></i>
               </div>
             </li>
+            
             <li>
-              <div className="flex-text">
+              <div className="flex-text negative">
+                <h3>Gestão Financeira</h3>
+                <i className="fa fa-times" aria-hidden="true"></i>
+              </div>
+            </li>
+            
+            <li>
+              <div className="flex-text negative">
                 <h3>Atendimento Priorizado</h3>
+                <i className="fa fa-times" aria-hidden="true"></i>
+              </div>
+            </li>
+
+            <li>
+              <div className="flex-text negative">
+                <h3>Gestão De Equipe</h3>
                 <i className="fa fa-times" aria-hidden="true"></i>
               </div>
             </li>
@@ -158,25 +163,26 @@ const Cards = () => {
             </li>
             <li>
               <div className="flex-text">
-                <h3>Gestão De Equipe</h3>
-                <i className="fa fa-check" aria-hidden="true"></i>
-              </div>
-            </li>
-            <li>
-              <div className="flex-text">
-                <h3>Gestão Financeira</h3>
-                <i className="fa fa-check" aria-hidden="true"></i>
-              </div>
-            </li>
-            <li>
-              <div className="flex-text">
                 <h3>WebSite Premium</h3>
                 <i className="fa fa-check" aria-hidden="true"></i>
               </div>
             </li>
             <li>
-              <div className="flex-text">
+              <div className="flex-text negative">
+                <h3>Gestão Financeira</h3>
+                <i className="fa fa-times" aria-hidden="true"></i>
+              </div>
+            </li>
+            
+            <li>
+              <div className="flex-text negative">
                 <h3>Atendimento Priorizado</h3>
+                <i className="fa fa-times" aria-hidden="true"></i>
+              </div>
+            </li>
+            <li>
+              <div className="flex-text negative">
+                <h3>Gestão De Equipe</h3>
                 <i className="fa fa-times" aria-hidden="true"></i>
               </div>
             </li>
@@ -216,25 +222,27 @@ const Cards = () => {
             </li>
             <li>
               <div className="flex-text">
-                <h3>Gestão De Equipe</h3>
+                <h3>WebSite Premium</h3>
                 <i className="fa fa-check" aria-hidden="true"></i>
               </div>
             </li>
+            
             <li>
               <div className="flex-text">
                 <h3>Gestão Financeira</h3>
                 <i className="fa fa-check" aria-hidden="true"></i>
               </div>
             </li>
+            
             <li>
               <div className="flex-text">
-                <h3>WebSite Premium</h3>
+                <h3>Atendimento Priorizado</h3>
                 <i className="fa fa-check" aria-hidden="true"></i>
               </div>
             </li>
             <li>
-              <div className="flex-text">
-                <h3>Atendimento Priorizado</h3>
+              <div className="flex-text negative">
+                <h3>Gestão De Equipe</h3>
                 <i className="fa fa-times" aria-hidden="true"></i>
               </div>
             </li>
@@ -272,7 +280,7 @@ const Cards = () => {
             </li>
             <li>
               <div className="flex-text">
-                <h3>Gestão De Equipe</h3>
+                <h3>WebSite Premium</h3>
                 <i className="fa fa-check" aria-hidden="true"></i>
               </div>
             </li>
@@ -282,15 +290,16 @@ const Cards = () => {
                 <i className="fa fa-check" aria-hidden="true"></i>
               </div>
             </li>
+            
             <li>
               <div className="flex-text">
-                <h3>WebSite Premium</h3>
+                <h3>Atendimento Priorizado</h3>
                 <i className="fa fa-check" aria-hidden="true"></i>
               </div>
             </li>
             <li>
               <div className="flex-text">
-                <h3>Atendimento Priorizado</h3>
+                <h3>Gestão De Equipe</h3>
                 <i className="fa fa-check" aria-hidden="true"></i>
               </div>
             </li>
