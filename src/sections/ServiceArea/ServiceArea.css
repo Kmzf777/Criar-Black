@@ -93,7 +93,7 @@
   width: 100%;
   text-align: center;
   font-size: 5vw;
-  line-height: 11vh;
+  line-height: 6vw;
 }
 
 .gestao-text h2 span:nth-child(1) {
@@ -141,7 +141,7 @@
   align-items: center;
   justify-content: center;
   width: 55%;
-  height: 80vh;
+  height: 40vw;
   position: relative;
 }
 
