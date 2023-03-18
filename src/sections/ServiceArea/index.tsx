@@ -72,7 +72,7 @@ const ServiceArea = () => {
           </p>
         </div>
         <div className="info-box">
-          <h2>Como Fazer a Diversidade Trabalhar a Favor da Empresa</h2>
+          <h2> Gerenciar um Time à Distância com Eficiência</h2>
           <h3>Estratégias para liderar equipes com diferentes habilidades e competências</h3>
           <img src={DesignerECriacao} alt="" />
           <p>
