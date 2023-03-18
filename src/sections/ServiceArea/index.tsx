@@ -64,25 +64,19 @@ const ServiceArea = () => {
 
       <main className="gestao-area">
         <div className="info-box">
-          <h2>Bla Bla Bla</h2>
-          <h3>bla bla bla</h3>
+          <h2>Alavancando o Sucesso Empresarial</h2>
+          <h3>Estratégias para diferenciar sua empresa e criar relacionamentos duradouros com os clientes</h3>
           <img src={DesignerECriacao} alt="" />
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab
-            molestias dignissimos repellendus laboriosam distinctio unde eum
-            nisi magnam hic tempora. Dolorem obcaecati minus totam vero
-            provident fugiat, dolorum dicta quod.
+          Em um mercado cada vez mais competitivo, a gestão comercial é um fator chave para o sucesso de qualquer empresa. Neste artigo, apresentaremos algumas estratégias eficazes para vencer a concorrência e conquistar clientes fiéis, incluindo a identificação do perfil do consumidor, a criação de uma proposta de valor única e a adoção de práticas de atendimento ao cliente de excelência. Com essas estratégias, sua empresa poderá se destacar no mercado, fidelizar os clientes e construir um relacionamento duradouro e rentável.
           </p>
         </div>
         <div className="info-box">
-          <h2>Bla Bla Bla</h2>
-          <h3>bla bla bla</h3>
+          <h2>Como Fazer a Diversidade Trabalhar a Favor da Empresa</h2>
+          <h3>Estratégias para liderar equipes com diferentes habilidades e competências</h3>
           <img src={DesignerECriacao} alt="" />
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab
-            molestias dignissimos repellendus laboriosam distinctio unde eum
-            nisi magnam hic tempora. Dolorem obcaecati minus totam vero
-            provident fugiat, dolorum dicta quod.
+          Com a crescente necessidade de inovação e a diversidade de habilidades e competências no mercado de trabalho, é comum que empresas formem equipes multidisciplinares. Neste artigo, apresentaremos estratégias para liderar equipes com diferentes habilidades e competências, incluindo a valorização da diversidade, a definição de objetivos claros, o uso de ferramentas de comunicação eficazes e o estabelecimento de um ambiente de trabalho colaborativo. Com essas dicas, você poderá criar uma equipe coesa e produtiva, capaz de enfrentar desafios e alcançar resultados expressivos.
           </p>
         </div>
       </main>
