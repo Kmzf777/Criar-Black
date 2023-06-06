@@ -782,6 +782,7 @@ body {
   justify-content: center;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
   margin-top: 4vh;
+  animation: service-box 3s ease infinite;
 }
 
 .service-box-text {
@@ -795,6 +796,63 @@ body {
   color: rgba(255, 255, 255, 0.9);
   font-weight: 500;
 }
+
+
+/*Service Box Animation*/
+
+@keyframes service-box {
+  0% {
+    box-shadow: 0px 0px 0px #be34544f;
+  }
+
+  50% {
+    box-shadow: 0px 0px 5px #be3454d4,
+    0px 0px 15px #be34545d,
+    0px 0px 45px #be345437,
+    0px 0px 90px #be34541a;
+  }
+
+  100% {
+    box-shadow: 0px 0px 0px #be34544f;
+  }
+}
+
+.service-box:nth-child(1) {
+  animation-delay: 1s;
+}
+
+.service-box:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.service-box:nth-child(5) {
+  animation-delay: 1s;
+}
+
+.service-box:nth-child(7) {
+  animation-delay: 1s;
+}
+
+.service-box:nth-child(9) {
+  animation-delay: 1s;
+}
+
+.service-box:nth-child(11) {
+  animation-delay: 1s;
+}
+
+.service-box:nth-child(13) {
+  animation-delay: 1s;
+}
+
+.service-box:nth-child(15) {
+  animation-delay: 1s;
+}
+
+.service-box:nth-child(17) {
+  animation-delay: 1s;
+}
+
 
 /*Planos*/
 
