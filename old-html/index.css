@@ -854,6 +854,82 @@ body {
 }
 
 
+
+/*Stage Area*/
+
+
+.stage-area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #be3455;
+  margin-top: 10vh;
+  padding: 8vh 0vw;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.4);
+}
+
+.stage-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.stage-text h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  font-size: 2vw;
+  text-transform: uppercase;
+}
+
+.stage-text h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  margin-top: 5vh;
+  width: 70%;
+  text-align: center;
+}
+
+.stage-text h3 span {
+  color: rgb(6, 237, 229);
+}
+
+
+.stage-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 2vh;
+}
+
+.stage-box {
+  width: 35%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 25px;
+  padding: 2vh 2vw;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+  margin-top: 5vh;
+}
+
+.stage-box h2 {
+  color: #be3455;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+.stage-box p {
+  font-size: 0.9vw;
+  margin-top: 1vh;
+  color: black;
+  font-weight: 500;
+}
+
+
 /*Planos*/
 
 .price-text {
