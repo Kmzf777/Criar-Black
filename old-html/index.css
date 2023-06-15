@@ -964,12 +964,13 @@ body {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 10vh;
 }
 
 .card-box {
   position: relative;
   width: 24vw;
-  height: 80vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1240,7 +1241,7 @@ body {
 .card-box2 {
   position: relative;
   width: 24vw;
-  height: 80vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1304,6 +1305,15 @@ body {
   opacity: 1;
 }
 
+.emerald li:nth-child(7) h3,
+.emerald li:nth-child(7) i,
+.emerald li:nth-child(6) h3,
+.emerald li:nth-child(6) i,
+.emerald li:nth-child(5) h3,
+.emerald li:nth-child(5) i {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .bronze::before,
 .bronze::after {
   background: linear-gradient(45deg, #a95f20, #a94d00);
@@ -1313,6 +1323,19 @@ body {
   color: #ff7300;
 }
 
+.bronze li:nth-child(7) h3,
+.bronze li:nth-child(7) i,
+.bronze li:nth-child(6) h3,
+.bronze li:nth-child(6) i,
+.bronze li:nth-child(5) h3,
+.bronze li:nth-child(5) i,
+.bronze li:nth-child(4) h3,
+.bronze li:nth-child(4) i,
+.bronze li:nth-child(3) h3,
+.bronze li:nth-child(3) i {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .silver::before,
 .silver::after {
   background: linear-gradient(45deg, #bec0c2, #7d7d7a);
@@ -1320,6 +1343,17 @@ body {
 
 .silver .card-tittle {
   color: #c7c7c7;
+}
+
+.silver li:nth-child(7) h3,
+.silver li:nth-child(7) i,
+.silver li:nth-child(6) h3,
+.silver li:nth-child(6) i,
+.silver li:nth-child(5) h3,
+.silver li:nth-child(5) i,
+.silver li:nth-child(4) h3,
+.silver li:nth-child(4) i {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .emerald::before,
@@ -1502,7 +1536,7 @@ body {
   margin-top: 15vh;
   padding: 25px 0px;
   height: 45vh;
-  background: linear-gradient(to left, #be3455, #df1cbf);
+  background: linear-gradient(to left, #be3455, #be3455);
 }
 
 .rodape::after {
@@ -1510,7 +1544,7 @@ body {
   width: 100%;
   height: 45vh;
   position: absolute;
-  background: linear-gradient(45deg, #df1cbf, #be3455);
+  background: linear-gradient(45deg, #be3455, #be3455);
   filter: blur(35px);
   z-index: -99;
 }
@@ -1557,7 +1591,7 @@ body {
   width: 0;
   height: 2px;
   border-radius: 5px;
-  background: #580272;
+  background: rgb(6, 237, 229);
   transition: 0.3s ease-in-out;
   filter: blur(5px);
   z-index: 999;
@@ -1571,7 +1605,7 @@ body {
   width: 0;
   height: 2px;
   z-index: 999;
-  background: #580272;
+  background: rgb(6, 237, 229);
   transition: 0.3s ease-in-out;
 }
 
@@ -1599,23 +1633,23 @@ body {
 }
 
 .underline:focus-within input::placeholder {
-  color: #580272;
+  color: rgb(6, 237, 229);
 }
 
 .reuniao button {
-  background: linear-gradient(45deg, #580272, rgb(108, 44, 138));
+  background: linear-gradient(45deg, rgb(6, 237, 229), rgb(6, 237, 229));
   width: 100%;
   border-radius: 8px;
   padding: 7px 0px;
   font-size: 1.4vw;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.9);
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
   margin-top: 3vh;
   transition: 0.3s ease all;
 }
 
 .reuniao button:hover {
-  background: linear-gradient(45deg, rgb(108, 44, 138), #580272);
+  background: linear-gradient(45deg, rgb(6, 237, 229), rgb(6, 237, 229));
   letter-spacing: 4px;
   transform: translateY(-0.5vh);
   cursor: pointer;
@@ -1661,7 +1695,7 @@ body {
 
 .endereco a:hover {
   transform: translateY(-3px);
-  color: #580272;
+  color: rgb(6, 237, 229);
 }
 
 .endereco i {
@@ -1695,5 +1729,5 @@ body {
 
 .outros a:hover {
   transform: translateY(-3px);
-  color: #580272;
+  color: rgb(6, 237, 229);
 }
