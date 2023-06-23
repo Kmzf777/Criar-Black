@@ -1077,7 +1077,7 @@
   .card-box {
     position: relative;
     width: 64vw;
-    height: 105vw;
+    height: 115vw;
   }
 
   .card-box::before {
@@ -1169,7 +1169,7 @@
   .card-box2 {
     position: relative;
     width: 64vw;
-    height: 100vw;
+    height: 115vw;
     display: flex;
     justify-content: center;
     align-items: center;
